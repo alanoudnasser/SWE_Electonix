@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Device"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/device_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Device" />
+
+        <EditText
+            android:id="@+id/company_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Company" />
+
+        <EditText
+            android:id="@+id/price_field"
+            android:layout_width="match_parent"
+            android:inputType="number"
+            android:layout_height="wrap_content"
+            android:hint="Price" />
+
+        <Button
+            android:id="@+id/choose_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Choose Image" />
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="wrap_content"
+            android:layout_height="185dp"
+            android:src="@drawable/logo" />
+        <Button
+            android:id="@+id/add_button_popup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add" />
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
